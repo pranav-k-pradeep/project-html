@@ -1,0 +1,48 @@
+
+.container{
+    margin: auto;
+    background-color: #f5f1df;
+    margin: auto;
+    height: 8em;
+    
+}
+
+.title{
+    color:#e07a3c;
+    padding-left: 210px;
+}
+
+.searchbar {
+   margin: auto;
+   
+}
+
+
+
+.searchbar input{
+    width: 760px;
+    height: 20px;
+    
+    size:12px;
+    margin: auto;
+    padding: 8px 12px 8px 8px;
+    gap: 16px;
+    opacity: 0px;
+    border-radius: 10px;
+}
+
+.searchbar button{
+    margin-right: 10px;
+}
+
+.help-button button{
+    color: #EB6D20;
+    margin-right: 400px;
+}
+
+.account p{
+    margin-left: 1000px;
+}
+
+
+    
