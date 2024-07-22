@@ -12,8 +12,19 @@
 }
 .title{
     padding-top: 0.5em;
-    padding-left: 130px;
+   
     color: #EB6D20;    
+}
+.title p{
+    font-size: larger;
+    font-weight: bold;
+    position: relative;
+    margin-right: 180px;
+    margin-left: 60px;
+}
+
+.select{
+    margin-top: 50px;
 }
 .searchbar{
     display: flex;
@@ -27,6 +38,9 @@
     top: 24px;
     left: 524px;
     margin-right: 10px;
+}
+.search{
+    right: 2550px;
 }
 
 .help-button button{
@@ -81,7 +95,7 @@ form {
 .items{
     display: flex;
     background-color: #f5f1df;
-    gap:20px;
+    gap:60px;
     margin: auto;
     justify-content: center;
 }
@@ -101,34 +115,82 @@ form {
 }
   
 
+.cards{
+    margin-left: 60px;
+    display: flex;
+    justify-content: center;
+    width: 1320px;
+    margin-top: 20px;
+    gap:10px;
+    
+}
+
 .card1{
     flex:1;
+    height:174px;
+    background-color: #F5F6F8;
+}
+
+.card1 img{
+   position: relative;
+   left: 300px;
+   bottom: 124px;
    
 }
 
+.card1 h3{
+    margin-left: 20px;
+    padding-top: 20px;
+    
+}
+.card1 p{
+    margin-left: 20px;
+    
+}
 
 .card2{
-
     flex:1;
+    height:174px;
+    background-color: #F5F6F8;
+}
+.card2 img{
+    position: relative;
+    left: 300px;
+    bottom: 120px;
+    
+}
+
+
+.card2 h3{
+    margin-left: 20px;
+    padding-top: 20px;
+    
+}
+.card2 p{
+    margin-left: 20px;
+    
 }
 
 .card3{
-    
-    flex:1;
+    flex: 1;
+    height:174px;
+    background-color: #F5F6F8;
 }
-.card img{
-    
-    
+.card3 img{
+    position: relative;
+    left: 300px;
+    bottom: 100px;
     
 }
 
-.cards{
+
+.card3 h3{
+    margin-left: 20px;
+    padding-top: 20px;
     
-    background-color: gray;
-    display: flex;
-    justify-content: center;
-    gap:16px;
-    margin-top: 20px;
+}
+.card3 p{
+    margin-left: 20px;
     
 }
 
@@ -206,4 +268,398 @@ form {
     width: 48px;
     height: 48px;
     padding-top:30px ;
+}
+
+
+
+.colortext img {
+    position: relative;
+    top: 10px;
+    left:1300px;
+}
+
+
+.container1 {
+    position: relative;
+    display: flex;
+    padding-left: 60px;
+
+    
+    padding-top: 20px;
+    
+}
+.bag{
+    position: absolute;
+    left: 30px;
+    top: 40px;
+}
+
+.heart{
+    position:absolute;
+    left:210px;
+    top:40px;
+}
+
+.desc1{
+    position: absolute;
+    bottom: 10px;
+    left:75px;
+}
+
+.chappal{
+    position: absolute;
+    left: 280px;
+    top: 40px;
+}
+
+.heart2{
+    position:absolute;
+    left:430px;
+    top:40px;
+}
+
+.desc2{
+    position: absolute;
+    bottom: 10px;
+    left:295px;
+}
+
+.price1{
+    bottom: 100px;
+}
+
+.bluebag{
+    position: absolute;
+    left: 485px;
+    top:40px;
+}
+
+.heart3{
+    position:absolute;
+    left:645px;
+    top:40px;
+}
+
+
+.desc3{
+    position: absolute;
+    bottom: 10px;
+    left:505px;
+}
+
+
+.shoes2{
+    position: absolute;
+    right:32em;
+    top:40px;
+}
+
+
+.desc4{
+    position: absolute;
+    bottom: 28px;
+    left:720px;
+}
+
+.heart4{
+    position:absolute;
+    left:870px;
+    top:40px;
+}
+
+.ring{
+    position: absolute;
+    right: 20em;
+    top:30px;
+}
+
+.heart5{
+    position:absolute;
+    right:20em;
+    top:40px;
+}
+
+.desc5{
+    position: absolute;
+    bottom: 10px;
+    right:18.3em;
+}
+
+.heart6{
+    position:absolute;
+    right:5.9em;
+    top:40px;
+}
+
+.bangle{
+    position: absolute;
+    right: 5.4em;
+    top:50px;
+}
+.desc6{
+    position: absolute;
+    bottom: 10px;
+    right:4.9em;
+}
+
+.text2{
+    position: relative;
+    left: 75px;
+    top: 65px;
+    width: 326px;
+height: 26px;
+
+}
+
+.texts{
+    display: flex;
+   
+    
+    gap:120px;
+    margin: auto;
+    justify-content: center;
+}
+
+.farm{
+   padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+    
+}
+
+.decor{
+    padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+.polka{
+    padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+.minimal{
+    padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+.gift1{
+    padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+.wedding1{
+    padding-bottom: 20px;
+    border-bottom: solid #E9E9E9;
+}
+
+.lampbox{
+    background: #FBF7D3;
+    position: relative;
+}
+
+.lamp-price{
+    padding-bottom: 20px;
+    margin-left: 5px;
+}
+
+.lampbox{
+   margin-top: 10px;
+   max-width: 312px;
+}
+.lamptext{
+    margin-left: 5px;
+    bottom: -8px;
+    position: relative;
+}
+
+.phone{
+    margin-top: 20px;
+}
+
+.phonetext{
+    bottom: 40px;
+}
+
+.images3{
+    margin-top: 30px;
+}
+
+.wash{
+    margin-top: 10px;
+    width: 312px;
+    background-color: #C0ABFD;
+    
+}
+
+.images3{
+    display: flex;
+    gap:10px;
+    justify-content: center;
+    
+}
+.subscribe{
+    width: 1280px;
+height: 306px;
+top: 2739px;
+left: 290px;
+gap: 0px;
+background: #5959D9;
+
+border-radius: 5px ;
+opacity: 0px;
+margin-left: 60px;
+position: relative;
+margin-left: -225px;
+top:10px;
+}
+
+.offers{
+    color:#fff;
+    
+    margin-left: 200px;
+    position: relative;
+    bottom: -65px;
+}
+
+.offers2{
+    color:#fff;
+    margin-left: 200px;
+    bottom: -75px;
+    position: relative;
+}
+
+.search2{
+    background-color:#fff;
+    width: 648px;
+height: 48px;
+top: 2913px;
+border-radius: 50px;
+left: 636px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+margin-left: 300px;
+margin-top: 120px;
+}
+
+.submit{
+    margin-left: 800px;
+    bottom:75px ;
+    position: absolute;
+    background-color: #EB6D20;
+    
+    border-radius: 50px;width: 133px;
+    height: 32px;
+    
+    
+
+}
+
+.submit button{
+    padding-left: 15px;margin-left: 20px;
+    padding-top: 7px;
+    color: wheat;
+}
+
+.searchpro{
+    margin-left: 20px;
+    border-radius: 50px;
+}
+
+.order{
+    text-align: center;
+   
+    text-decoration: underline;
+    margin-top: 30px;
+    color:#D6D6D6;
+    
+
+}
+
+.ecommerce{
+    
+  margin-top: 30px;
+   background-color: #F5F6F8;
+   text-align: center;
+   height: 48px;
+}
+
+.footer{
+    display: flex;
+    margin-left: 70px;
+    
+    
+}
+
+.para1{
+    flex: 2;
+    justify-content: center;
+    
+
+
+}
+
+.para2{
+    flex: 1;
+   
+}
+
+.para3{
+    flex: 1;
+    
+}
+.para4{
+    flex: 1;
+}
+
+.para5{
+    flex: 1;
+}
+
+.last{
+    display: flex;
+    margin-left: 70px;
+}
+
+.right{
+    flex:2;
+}
+
+.privacy{
+    flex: 1;
+    position: relative;
+    right: 90px;
+}
+
+.terms{
+flex:1;
+position: relative;
+    right: 190px;
+}
+
+.cookie{
+flex: 1;
+position: relative;
+    right: 300px;
+}
+
+.scroll {
+    margin-left: 1200px;
+    position: relative;
+    bottom: 58px;
+}
+
+.search1{
+    background-color:#fff;
+    width: 648px;
+height: 48px;
+top: 2913px;
+border-radius: 50px;
+left: 636px;
+gap: 0px;
+opacity: 0px;
+display: flex;
+justify-content: center;
+margin-left: 70px;
+margin-top: 10px;
 }
