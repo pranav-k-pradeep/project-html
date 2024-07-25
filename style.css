@@ -1069,7 +1069,7 @@ height:  48px;
     }
 
     .title{
-        bottom: 40px;
+        bottom: 16px;
         flex: none;
         width: 7rem;
     }
@@ -1092,6 +1092,7 @@ height:  48px;
     .search1{
         width: 400px;
         margin-top: 80px;
+        margin-left: 0;
     }
     
     
@@ -1140,8 +1141,10 @@ height:  48px;
     .card-img{
         position: relative;
         right:55px;
-        height: 127px;
-        padding-top: 20px;
+        height: 80px;
+        margin-top: 8px;
+        padding-top: -10px;
+        margin-left:-5px ;
     }
 
     .card{
@@ -1152,8 +1155,9 @@ height:  48px;
 
     .h{
         position: relative;
-        top:140px;
-        left: 90px;
+        top:80px;
+        padding-left: 90px;
+        padding-top: 0;
     }
 
     .order{
